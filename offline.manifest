@@ -1,0 +1,20 @@
+CACHE MANIFEST 
+# v4 
+# Tue 03/23/2021-18:17:17.78 
+
+
+CACHE: 
+
+index.html
+int64.js
+payloads.js
+ps4.js
+rop.js
+userland.js
+utils.js
+
+FALLBACK: 
+index.html 
+
+NETWORK: 
+* 
