@@ -159,7 +159,7 @@ function setupRW() {
 			'<tr>'+
 			'<td align="center" colspan="2">'+
 			'<a href="#" id="restore" class="button" onclick="toggle_payload(\'restore\'); return false" style="width:43%">Restore</a>&nbsp;'+
-			'<a href="#" id="fix30391" class="button" onclick="toggle_payload(\'fix30391\'); return false" style="width:43%;border-radius: 5px 0px 0px 5px;">CE-30391-6 Fix</a>&nbsp;'+
+			'<a href="#" id="fix30391" class="button" onclick="toggle_payload(\'fix30391\'); return false" style="width:43%;">CE-30391-6 Fix</a>&nbsp;'+
 			'</td>'+
 			'</tr><tr><td><br/></td></tr>'+
 			'<tr>'+
