@@ -1,48 +1,45 @@
 <html manifest="offline.manifest">
 	<style>
 		.button {
-		  background-color: #003263;  
-		  border-radius: 5px;
-		  color: white;
-		  padding: .5em;
-		  text-decoration: none;
-		  height:100%;
-		  display:inline-table;
-		  font-family: system-ui;
+			font-family: system-ui;
+			color: black;
+			text-decoration: none;
+			box-sizing: border-box;
+			border: none;
+			border-radius: 0;
+			padding: .5em;
+			height:100%;
+			background: silver;
+			display:inline-table;
+			box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf
 		}
-
+		
 		.button:focus,
 		.button:hover {
-		  background-color: #007bff;
-		  color: White;
+			outline: 1px dotted #000;
+			outline-offset: -4px
 		}
-
+		.button:active {
+			box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
+			padding: .5em;
+		}
 		.titlehead {
-		  background-color: #003263;  
-		  border-radius: 5px;
-		  color: white;
-		  padding: .5em;
-		  text-decoration: none;
-		  text-align: center;
-		  margin-top: -10px;
-		  margin-bottom: -10px;
-		  font-family: system-ui;
-		}
-
-		.titlehead:focus,
-		.titlehead:hover {
-		  background-color: #007bff;
-		  color: White;
+			background: linear-gradient(90deg, navy, #1084d0);
+			color: white;
+			padding: 3px 2px 3px 3px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center
 		}
 
 		.bg {
-		  background-color: black;
+		  background-color: silver;
 		}
 
 		#myProgress {
-		  border: 5px solid #FFFFFF;
-		  border-radius: 5px;
-		  background-color: #ddd;
+		padding: 3px 4px;
+		box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+		background-color: #fff;
 		  height: 45px;
 		  position: absolute;
 		  top:0;
@@ -55,7 +52,7 @@
 		#myBar {
 		  width: 0%;
 		  height: 40px;
-		  background-color: #4CAF50;
+		  background-color: navy;
 		  text-align: center;
 		  line-height: 30px;
 		  color: white;
